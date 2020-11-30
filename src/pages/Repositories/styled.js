@@ -47,3 +47,10 @@ export const LinkHome = styled(Link)`
     text-decoration:none;
     border-radius:10px;
 `
+export const Content = styled.div`
+    width:100%;
+    max-width:991px;
+    margin:0 auto;
+    
+
+`

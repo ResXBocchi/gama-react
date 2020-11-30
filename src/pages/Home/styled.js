@@ -2,10 +2,15 @@ import styled from 'styled-components';
 
 
 
-
+export const Omni = styled.div`
+    margin-top:25%;
+    max-width:100vw;
+    max-height:100%;
+    
+`
 export const Container = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 3vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,4 +46,7 @@ export const Button = styled.button`
     }
     
     `;
-    
+export const Erro = styled.p`
+    color:red;
+    font-weight:bolder;
+`
